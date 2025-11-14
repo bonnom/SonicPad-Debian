@@ -12,7 +12,7 @@ sudo apt install binutils-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-no
 
 ```bash
 # Install Klipper MCU service to Systemd
-sudo cp ~klipper/scripts/klipper-mcu.service /etc/systemd/system/
+sudo cp ~/klipper/scripts/klipper-mcu.service /etc/systemd/system/
 systemctl daemon-reload
 ```
 
